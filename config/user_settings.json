@@ -1,0 +1,26 @@
+{
+  "autofill_protection": true,
+  "custom_pool_ids": [],
+  "elo_tier": "EMERALD",
+  "expectimax_depth": 1,
+  "focus_champs": [],
+  "hover_confidence": 0.75,
+  "lcb_kappa": 0.75,
+  "manual_rework_cutoffs": {
+    "BelVeth": "16.15",
+    "Cassiopeia": "16.18",
+    "Mel": "16.22",
+    "Shyvana": "16.6"
+  },
+  "mastery_mode": "OFF",
+  "mastery_subsample_rate": 0.1,
+  "mastery_weight": 0.75,
+  "n_enemy_pool": 7,
+  "overlay_size": [
+    519,
+    751
+  ],
+  "platform": "euw1",
+  "regional": "europe",
+  "xp_stall_mode": false
+}

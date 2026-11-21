@@ -1,0 +1,29 @@
+# Secrets & local environment
+.env
+.env.*
+!.env.example
+
+# Python virtual environment & bytecode
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Large database, caches & generated ML binaries (rebuilt locally)
+data/patch_matrix.db
+data/patch_matrix.db-wal
+data/patch_matrix.db-shm
+data/*_cache.pkl
+data/stacker_v2_bundle.pkl
+data/v4_oof.npz
+data/*.pt
+data/*.onnx
+data/icons/
+data/cache/
+
+# OS & editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
